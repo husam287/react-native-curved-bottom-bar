@@ -124,7 +124,7 @@ const BottomBarComponent: NavigatorBottomBar = React.forwardRef((props, ref) => 
           style={{ flex: 1 }}
           layoutDirection={'ltr'}
           initialPage={selectedTabIndex}
-          scrollEnabled={lazy ? false : swipeEnabled}z
+          scrollEnabled={lazy ? false : swipeEnabled}
           onPageSelected={e => onPageSelected(e.nativeEvent.position)}
         >
           {children.map(_renderTab)}

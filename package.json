@@ -21,13 +21,9 @@
     "tab-bar",
     "tabbar"
   ],
-  "author": {
-    "name": "Hoa Phan",
-    "email": "hoaphantn7604@gmail.com"
-  },
+  "author": "Hoa Phan <hoaphantn7604@gmail.com>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "devDependencies": {
     "react": "*",
     "react-native": "*"
@@ -36,5 +32,12 @@
     "d3-shape": "*",
     "react-native-pager-view": "*",
     "react-native-svg": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/hoaphantn7604/react-native-curved-bottom-bar/issues"
+  },
+  "homepage": "https://github.com/hoaphantn7604/react-native-curved-bottom-bar#readme",
+  "directories": {
+    "example": "example"
   }
 }
